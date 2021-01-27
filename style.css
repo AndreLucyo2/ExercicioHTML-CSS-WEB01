@@ -1,0 +1,80 @@
+body {
+    background-image: url('img/fundo-cidade.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.top_bar {
+    background-color: #000;
+    overflow: hidden;
+}
+
+.div_contato {            
+    /* background-color: blue; */
+    float: left;
+    overflow: hidden;
+}
+
+.txt_contato{
+    margin: 5px;
+    color:white;
+}
+
+.div_icon{
+    float: right;
+    flex-direction: row;
+    /* background-color: blue; */
+
+}
+
+.icon{
+    height: 25px;
+    width: 25px;
+    background-color: aliceblue;
+}
+
+.divMenus{   
+    height: 80px;
+    border: 2px green;
+    /* overflow: hidden; */
+    background-color: grey;
+}
+
+.menuhorizontal li{
+    padding: 0px;
+    display: inline;
+    float: right;
+    margin: 5px;
+    color: aliceblue;
+}
+
+#menu ul {
+    padding:0px;
+    margin:0px;
+    float: right;
+    width: 100%;
+    background-color:#EDEDED;
+    list-style:none;
+    font:80% Tahoma;
+}
+
+#menu ul li { 
+    display: inline; }
+
+#menu ul li a {
+    background-color:#EDEDED;
+    color: #333;
+    text-decoration: none;
+    border-bottom:3px solid #EDEDED;
+    padding: 2px 10px;
+    float:left;
+}
+
+#menu ul li a:hover {
+    background-color:#D6D6D6;
+    color: #6D6D6D;
+    border-bottom:3px solid #EA0000;
+}
+
