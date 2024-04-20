@@ -9,6 +9,7 @@ body {
 .top_bar {
     background-color: #000;
     overflow: hidden;
+    padding: 100 100 100 100;
 }
 
 .div_contato {            
