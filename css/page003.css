@@ -1,0 +1,22 @@
+.container{
+  margin: 100px auto auto auto;
+  border: 2px solid black;
+  width: 370px;
+}
+
+.vermelha{
+  background: red;
+  width: 175px;
+  margin: 10px;
+}
+.verde {
+  background: green;
+  width: 175px;
+  margin: 10px 10px 10px 97px;
+}
+
+.amarela{
+  background: yellow;
+  width: 175px;
+  margin: 10px 10px 10px auto;
+}
