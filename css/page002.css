@@ -1,7 +1,32 @@
-.top_bar {
-  background-color: #6978;
+.input-component {
+    margin-bottom: 10px;
 }
 
-.btn{
-  margin:  2em 2%;
+.input-component label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-component input {
+    width: 90%;
+    padding: 5px;
+}
+
+.myForm{
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+#myForm{
+  position: relative;
+  display: flex;
+  width: 90%;
+  border: 5px solid #61C353;
+  background: #3841CA;
+  padding: 0 0 20px;
+  height: 100px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
