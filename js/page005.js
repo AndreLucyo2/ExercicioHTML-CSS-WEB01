@@ -1,7 +1,7 @@
 console.log('Carregou Estudo javascript');
 
 //---------------------------------------------------------------
-// Estudos array:
+// Estudos array em javascript:
 //---------------------------------------------------------------
 const container = document.getElementById('container');
 
@@ -10,6 +10,7 @@ const numbers = [1, 2, 3, 4, 5];
 const doubledNumbers = numbers.map(num => num * 2);
 console.log(doubledNumbers); // Output: [2, 4,6, 8, 10]
 
+//HTML:
 const block1 = document.createElement('div');
 block1.setAttribute('id', 'block');
 const texto1 = document.createElement('h1');
@@ -25,13 +26,10 @@ block1.appendChild(texto2);
 criaDiv(container,block1);
 
 
-
-
 // Example: Filtering even numbers from an array
 const numbers1 = [1, 2, 3, 4, 5];
 const evenNumbers = numbers1.filter(num => num % 2 ===0);
 console.log(evenNumbers); // Output: [2, 4]
-
 
 const block2 = document.createElement('div');
 block2.setAttribute('id', 'block');
